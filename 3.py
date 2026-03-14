@@ -69,33 +69,3 @@ print(string.find("is", is_pos1 + 1))
 name = "John"
 print(name.center(7, "*"))
 
-'''
-language = "python3.14"
-
-total = 0
-
-for i in range(len(language)):
-    print(type(language[i]))
-    if language[i].isdigit():
-        total += int(language[i])
-
-print(total)
-
-'''
-
-
-
-
-'''
-
-language = "python3.14"
-
-total = 0
-
-for i in language:
-    if i.isdigit():
-        total += int(i)
-
-print(total)
-
-'''
